@@ -35,24 +35,8 @@ import os
 import scipy
 from scipy.stats import pearsonr
 
-datacontinous = "../ssd/2018laptop"
-
-devdatacontinous =  datacontinous + "/ContinuousLIRIS-ACCEDE/continuous-movies/"
-med2017datafolderTest = datacontinous + '/mediaeval2017/MEDIAEVAL17-TestSet-Data/MEDIAEVAL17-TestSet-Data/data/'
-
-pathcontfeatures = datacontinous + "/cvpr2014/repro/mediaeval/data/dataset/Continuous/features-out/"
-med2017testfeatures = datacontinous + "/cvpr2014/repro/mediaeval/data/dataset/Continuous/features-out/"
-
-med2016annotationsFolder = datacontinous + "/ContinuousLIRIS-ACCEDE/LIRIS-ACCEDE-continuous-annotations/continuous-annotations/"
-med2017annotationsFolder = datacontinous + '/mediaeval2017/MEDIAEVAL17-DevSet-Valence_Arousal-annotations/MEDIAEVAL17-DevSet-Valence_Arousal-annotations/annotations/'
-med2017fearFolder = datacontinous + '/mediaeval2017/MEDIAEVAL17-DevSet-Fear-annotations/MEDIAEVAL17-DevSet-Fear-annotations/annotations/'
-
-facesfolder = datacontinous + '/cvpr2014/repro/mediaeval/data/dataset/dlibfaces/'
-framesfolder = datacontinous + '/cvpr2014/repro/mediaeval/data/dataset/movframes/'
-#faceslandmarksfolder = datacontinous + '/cvpr2014/repro/mediaeval/data/dataset/dlibfaces/'
-
-colfold= '/home/yt/Downloads/pnas_py3/colors/'
-landmarkfold = '/home/yt/Downloads/pnas_py3/landmarks/'
+import importlib
+from datapaths import *
 
 
 fpsMovie = [['After_The_Rain',23.976],
