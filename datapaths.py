@@ -1,6 +1,6 @@
 import os
 
-datacontinous = "../ssd/2018laptop"
+datacontinous = "/data/ssd/2018laptop"
 
 devdatacontinous =  datacontinous + "/ContinuousLIRIS-ACCEDE/continuous-movies/"
 med2017datafolderTest = datacontinous + '/mediaeval2017/MEDIAEVAL17-TestSet-Data/MEDIAEVAL17-TestSet-Data/data/'
